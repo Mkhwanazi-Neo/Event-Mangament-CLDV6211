@@ -1,0 +1,126 @@
+﻿@model IEnumerable<EventEase.Models.Venue>
+
+@{
+    ViewData["Title"] = "Available Venues";
+}
+
+<style>
+    body {
+        background: url('/images/frutiger-aeroWP.png') no-repeat center center fixed;
+        background-size: cover;
+        font-family: 'Segoe UI', sans-serif;
+        color: #004a99;
+    }
+
+    .venue-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 25px;
+        margin-top: 30px;
+    }
+
+    /* Glossy Venue Cards */
+    .venue-card {
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(15px);
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        border-radius: 20px;
+        overflow: hidden;
+        transition: all 0.3s ease;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+        .venue-card:hover {
+            transform: translateY(-10px);
+            background: rgba(255, 255, 255, 0.25);
+            box-shadow: 0 15px 30px rgba(0, 127, 255, 0.2);
+        }
+
+    .venue-img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .venue-body {
+        padding: 20px;
+    }
+
+    .venue-title {
+        font-weight: 800;
+        color: #007FFF;
+        font-size: 1.4rem;
+        margin-bottom: 5px;
+    }
+
+    .venue-info {
+        font-size: 0.9rem;
+        color: #004a99;
+        margin-bottom: 15px;
+    }
+
+    .capacity-badge {
+        background: rgba(0, 127, 255, 0.1);
+        color: #007FFF;
+        padding: 4px 12px;
+        border-radius: 50px;
+        font-weight: bold;
+        font-size: 0.8rem;
+    }
+
+    /* 2000s Button Style */
+    .btn-create-venue {
+        background: linear-gradient(180deg, #4da6ff 0%, #007FFF 50%, #005fbf 100%);
+        color: white !important;
+        padding: 10px 25px;
+        border-radius: 50px;
+        font-weight: bold;
+        text-decoration: none;
+        box-shadow: 0 4px 15px rgba(0,127,255,0.3);
+    }
+
+    .action-links-container {
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 15px 20px;
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+        .action-links-container a {
+            font-size: 0.85rem;
+            font-weight: bold;
+            color: #007FFF;
+            margin-right: 10px;
+        }
+</style>
+
+<div class="container py-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 style="font-weight: 900; color: #007FFF; text-shadow: 2px 2px 5px white;">Explore Venues</h1>
+        <a asp-action="Create" class="btn-create-venue">+ Add Venue</a>
+    </div>
+
+    <div class="venue-grid">
+        @foreach (var item in Model)
+        {
+            <div class="venue-card">
+                <img src="@(string.IsNullOrEmpty(item.ImageUrl) ? "https://via.placeholder.com/400x200?text=Venue+Image" : item.ImageUrl)"
+                     class="venue-img" alt="Venue Image">
+                
+                <div class="venue-body">
+                    <div class="venue-title">@item.VenueName</div>
+                    <div class="venue-info">
+                        <i class="fas fa-map-marker-alt"></i> @item.Location
+                    </div>
+                    <span class="capacity-badge">Capacity: @item.Capacity</span>
+                </div>
+
+                <div class="action-links-container">
+                    <a asp-action="Edit" asp-route-id="@item.VenueID">Edit</a>
+                    <a asp-action="Details" asp-route-id="@item.VenueID">Details</a>
+                    <a asp-action="Delete" asp-route-id="@item.VenueID">Delete</a>
+                </div>
+            </div>
+        }
+    </div>
+</div>

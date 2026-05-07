@@ -1,0 +1,178 @@
+﻿@model IEnumerable<EventEase.Models.BookingDetailsView>
+
+@{
+    ViewData["Title"] = "Booking Explorer";
+}
+
+<style>
+    body {
+        background: url('/images/poolroom.jpg') no-repeat center center fixed;
+        background-size: cover;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #004a99;
+        min-height: 100vh;
+    }
+
+    /* Main Glass Container */
+    .glass-container {
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 20px;
+        padding: 30px;
+        margin-top: 30px;
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+    }
+
+    h1 {
+        font-weight: 900;
+        color: #007FFF;
+        text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+        margin-bottom: 25px;
+    }
+
+    /* Glossy Search Bar & Buttons */
+    .search-panel {
+        background: rgba(255, 255, 255, 0.2);
+        padding: 20px;
+        border-radius: 15px;
+        margin-bottom: 25px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .form-control {
+        border-radius: 50px;
+        border: 1px solid rgba(0, 127, 255, 0.3);
+        padding-left: 20px;
+    }
+
+    .btn-azure {
+        background: linear-gradient(180deg, #4da6ff 0%, #007FFF 50%, #005fbf 100%);
+        color: white !important;
+        border: none;
+        border-radius: 50px;
+        padding: 8px 25px;
+        font-weight: bold;
+        box-shadow: 0 4px 10px rgba(0, 127, 255, 0.3);
+        transition: transform 0.2s;
+    }
+
+        .btn-azure:hover {
+            transform: scale(1.05);
+        }
+
+    .btn-reset {
+        background: rgba(255, 255, 255, 0.5);
+        color: #007FFF !important;
+        border: 1px solid #007FFF;
+        border-radius: 50px;
+        padding: 8px 25px;
+        font-weight: bold;
+    }
+
+    /* Themed Table */
+    .table {
+        color: #003366;
+        background: transparent;
+        font-size: 0.9rem;
+    }
+
+        .table thead th {
+            border-top: none;
+            border-bottom: 2px solid #007FFF;
+            color: #007FFF;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .table tr {
+            transition: background 0.3s;
+        }
+
+            .table tr:hover {
+                background: rgba(255, 255, 255, 0.2);
+            }
+
+    .action-links a {
+        color: #007FFF;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+        .action-links a:hover {
+            text-decoration: underline;
+        }
+
+    .img-thumbnail-custom {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 8px;
+        border: 2px solid white;
+    }
+</style>
+
+<div class="container-fluid px-5">
+    <div class="glass-container">
+        <h1>Booking Explorer</h1>
+
+        <div class="search-panel">
+            <form asp-action="Index" method="get">
+                <div class="row align-items-center">
+                    <div class="col-md-4">
+                        <input type="text" name="searchString" value="@ViewBag.SearchString" class="form-control" placeholder="Search events or venues...">
+                    </div>
+                    <div class="col-md-4">
+                        <input type="submit" value="Search" class="btn btn-azure" />
+                        <a asp-action="Index" class="btn btn-reset ml-2">Reset</a>
+                    </div>
+                    <div class="col-md-4 text-right">
+                        <a asp-action="Create" class="btn btn-azure">+ Create New Booking</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Event</th>
+                        <th>Venue</th>
+                        <th>Location</th>
+                        <th>Capacity</th>
+                        <th>Preview</th>
+                        <th>Booking Date</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td><strong>#@item.BookingId</strong></td>
+                            <td>
+                                <span style="display:block; font-weight:bold;">@item.EventName</span>
+                                <small class="text-muted">@item.EventDate.ToShortDateString()</small>
+                            </td>
+                            <td>@item.VenueName</td>
+                            <td>@item.Location</td>
+                            <td><span class="badge badge-info">@item.Capacity</span></td>
+                            <td>
+                                <img src="@(string.IsNullOrEmpty(item.ImageUrl) ? "https://via.placeholder.com/50" : item.ImageUrl)" class="img-thumbnail-custom" />
+                            </td>
+                            <td>@item.BookingDate.ToString("dd MMM yyyy")</td>
+                            <td class="action-links">
+                                <a asp-action="Edit" asp-route-id="@item.BookingId">Edit</a> |
+                                <a asp-action="Details" asp-route-id="@item.BookingId">Details</a> |
+                                <a asp-action="Delete" asp-route-id="@item.BookingId">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
