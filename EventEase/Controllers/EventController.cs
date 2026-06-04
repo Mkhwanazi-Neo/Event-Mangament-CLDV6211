@@ -13,15 +13,38 @@ namespace EventEase.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index()
-        {
-            var events = await _context.Event.Include(e => e.Venue).ToListAsync();
-            return View(events);
+        public async Task<IActionResult> Index(string searchType, int venueID, int eventTypeID)
+        {   
+            var events = _context.Event
+            .Include(e => e.Venue)
+            .Include(e => e.EventType)
+            .AsQueryable();
+
+            if (!string.IsNullOrEmpty(searchType))
+            {
+                events = events.Where(e => e.EventName.Contains(searchType));
+            }
+
+            if (venueID != 0)
+            {
+                events = events.Where(e => e.VenueID == venueID);
+            }
+
+            if (eventTypeID != 0)
+            {
+                events = events.Where(e => e.EventTypeID == eventTypeID);
+            }
+
+            ViewData["Venues"] = _context.Venue.ToList();
+            ViewData["EventTypes"] = _context.EventType.ToList();
+
+            return View(await events.ToListAsync());
         }
 
         public IActionResult Create()
         {
             ViewData["Venues"] = _context.Venue.ToList();
+            
             return View();
         }
 

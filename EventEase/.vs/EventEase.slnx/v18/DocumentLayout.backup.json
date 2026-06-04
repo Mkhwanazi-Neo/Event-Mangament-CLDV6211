@@ -3,32 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\hp\\onedrive\\desktop\\event-mangament-cldv6211 - copy\\eventease\\controllers\\venuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:controllers\\venuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\hp\\onedrive\\desktop\\event-mangament-cldv6211 - copy\\eventease\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\hp\\onedrive\\desktop\\event-mangament-cldv6211 - copy\\eventease\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\hp\\onedrive\\desktop\\event-mangament-cldv6211 - copy\\eventease\\views\\event\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:views\\event\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\hp\\onedrive\\desktop\\event-mangament-cldv6211 - copy\\eventease\\views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\hp\\onedrive\\desktop\\event-mangament-cldv6211 - copy\\eventease\\views\\venue\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:views\\venue\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\hp\\onedrive\\desktop\\event-mangament-cldv6211 - copy\\eventease\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\hp\\onedrive\\desktop\\event-mangament-cldv6211 - copy\\eventease\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\hp\\onedrive\\desktop\\event-mangament-cldv6211 - copy\\eventease\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\hp\\onedrive\\desktop\\event-mangament-cldv6211 - copy\\eventease\\views\\event\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:views\\event\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\hp\\onedrive\\desktop\\event-mangament-cldv6211 - copy\\eventease\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\hp\\onedrive\\desktop\\event-mangament-cldv6211 - copy\\eventease\\models\\eventtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:models\\eventtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\hp\\onedrive\\desktop\\event-mangament-cldv6211 - copy\\eventease\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\hp\\onedrive\\desktop\\event-mangament-cldv6211 - copy\\eventease\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\hp\\onedrive\\desktop\\event-mangament-cldv6211 - copy\\eventease\\controllers\\venuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:controllers\\venuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\hp\\onedrive\\desktop\\event-mangament-cldv6211 - copy\\eventease\\models\\bookingdetailsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,28 +59,12 @@
       "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\hp\\onedrive\\desktop\\event-mangament-cldv6211 - copy\\eventease\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\hp\\onedrive\\desktop\\event-mangament-cldv6211 - copy\\eventease\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\hp\\onedrive\\desktop\\event-mangament-cldv6211 - copy\\eventease\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\hp\\onedrive\\desktop\\event-mangament-cldv6211 - copy\\eventease\\views\\venue\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:views\\venue\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\hp\\onedrive\\desktop\\event-mangament-cldv6211 - copy\\eventease\\models\\venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:models\\venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|c:\\users\\hp\\onedrive\\desktop\\event-mangament-cldv6211 - copy\\eventease\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E2C03B8-4821-BD83-A1E3-CFD21491410A}|EventEase.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,7 +86,124 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Views\\Booking\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Booking\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Views\\Booking\\Index.cshtml",
+              "RelativeToolTip": "Views\\Booking\\Index.cshtml",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-07T13:52:57.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-31T13:47:21.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Controllers\\EventController.cs",
+              "RelativeToolTip": "Controllers\\EventController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T09:52:55.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Views\\Event\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Event\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Views\\Event\\Index.cshtml",
+              "RelativeToolTip": "Views\\Event\\Index.cshtml",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAkwAEBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-06T06:47:13.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T13:51:34.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-16T08:45:21.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EventType.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Models\\EventType.cs",
+              "RelativeDocumentMoniker": "Models\\EventType.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Models\\EventType.cs",
+              "RelativeToolTip": "Models\\EventType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T19:26:35.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "Models\\Event.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Models\\Event.cs",
+              "RelativeToolTip": "Models\\Event.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T19:29:25.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "Controllers\\BookingController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T13:33:09.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "VenueController.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Controllers\\VenueController.cs",
               "RelativeDocumentMoniker": "Controllers\\VenueController.cs",
@@ -103,79 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BookingController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Controllers\\BookingController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BookingController.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Controllers\\BookingController.cs",
-              "RelativeToolTip": "Controllers\\BookingController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAwwHoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T13:33:09.327Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EventController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Controllers\\EventController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EventController.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Controllers\\EventController.cs",
-              "RelativeToolTip": "Controllers\\EventController.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAmwFAAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T09:52:55.289Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-26T07:50:22.154Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Views\\Venue\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Venue\\Index.cshtml",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Views\\Venue\\Index.cshtml",
-              "RelativeToolTip": "Views\\Venue\\Index.cshtml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAH0AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-02T09:41:25.334Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Views\\Booking\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Booking\\Index.cshtml",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Views\\Booking\\Index.cshtml",
-              "RelativeToolTip": "Views\\Booking\\Index.cshtml",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-07T13:52:57.717Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Views\\Event\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Event\\Index.cshtml",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Views\\Event\\Index.cshtml",
-              "RelativeToolTip": "Views\\Event\\Index.cshtml",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAAAI0AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-06T06:47:13.085Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "BookingDetailsView.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Models\\BookingDetailsView.cs",
               "RelativeDocumentMoniker": "Models\\BookingDetailsView.cs",
@@ -183,11 +224,12 @@
               "RelativeToolTip": "Models\\BookingDetailsView.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T13:40:34.171Z"
+              "WhenOpened": "2026-04-07T13:40:34.171Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Views\\Booking\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Booking\\Delete.cshtml",
@@ -195,11 +237,12 @@
               "RelativeToolTip": "Views\\Booking\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-06T06:37:08.889Z"
+              "WhenOpened": "2026-05-06T06:37:08.889Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Views\\Booking\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Booking\\Details.cshtml",
@@ -207,23 +250,12 @@
               "RelativeToolTip": "Views\\Booking\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-06T06:36:59.308Z"
+              "WhenOpened": "2026-05-06T06:36:59.308Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-31T13:47:21.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Booking.cs",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Models\\Booking.cs",
               "RelativeDocumentMoniker": "Models\\Booking.cs",
@@ -231,31 +263,8 @@
               "RelativeToolTip": "Models\\Booking.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T09:52:33.874Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-16T08:45:21.816Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Models\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Models\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Models\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T13:51:34.543Z"
+              "WhenOpened": "2026-04-23T09:52:33.874Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -267,7 +276,8 @@
               "RelativeToolTip": "Views\\Venue\\Create.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-16T09:03:35.001Z"
+              "WhenOpened": "2026-04-16T09:03:35.001Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -279,19 +289,8 @@
               "RelativeToolTip": "Models\\Venue.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAA1wBgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T13:52:46.17Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Event-Mangament-CLDV6211 - Copy\\EventEase\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T13:32:49.066Z"
+              "WhenOpened": "2026-03-31T13:52:46.17Z",
+              "EditorCaption": ""
             }
           ]
         }
